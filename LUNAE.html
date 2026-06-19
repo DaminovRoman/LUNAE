@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LUNAE — Студия маникюра</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garant:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="Cam.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">LUNAE</a>
+    <ul class="nav-links">
+      <li><a href="#about">О студии</a></li>
+      <li><a href="#services">Услуги</a></li>
+      <li><a href="#portfolio">Работы</a></li>
+      <li><a href="#pricing">Цены</a></li>
+      <li><a href="#contact">Контакты</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Записаться</a>
+    <button class="nav-burger" id="navBurger" aria-label="Меню">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mm-link">О студии</a></li>
+      <li><a href="#services" class="mm-link">Услуги</a></li>
+      <li><a href="#portfolio" class="mm-link">Работы</a></li>
+      <li><a href="#pricing" class="mm-link">Цены</a></li>
+      <li><a href="#contact" class="mm-link">Контакты</a></li>
+      <li><a href="#contact" class="mm-link mm-cta">Записаться</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-content">
+      <span class="hero-eyebrow reveal-up">Москва · Luxury Nail Studio</span>
+      <h1 class="hero-title reveal-up" data-delay="100">
+        Красота,<br>
+        <em>которую замечают.</em>
+      </h1>
+      <p class="hero-sub reveal-up" data-delay="200">
+        Маникюр — это первое, что видят. Мы создаём детали, которые говорят за вас.
+      </p>
+      <div class="hero-actions reveal-up" data-delay="300">
+        <a href="#contact" class="btn btn-primary">Записаться на визит</a>
+        <a href="#portfolio" class="btn btn-ghost">Смотреть работы</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Прокрутить</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- RIBBON -->
+  <div class="ribbon">
+    <div class="ribbon-track">
+      <span>Маникюр</span><span class="dot">·</span>
+      <span>Педикюр</span><span class="dot">·</span>
+      <span>Nail Art</span><span class="dot">·</span>
+      <span>Гель-лак</span><span class="dot">·</span>
+      <span>Укрепление</span><span class="dot">·</span>
+      <span>Уход за руками</span><span class="dot">·</span>
+      <span>Парафинотерапия</span><span class="dot">·</span>
+      <span>Маникюр</span><span class="dot">·</span>
+      <span>Педикюр</span><span class="dot">·</span>
+      <span>Nail Art</span><span class="dot">·</span>
+      <span>Гель-лак</span><span class="dot">·</span>
+      <span>Укрепление</span><span class="dot">·</span>
+      <span>Уход за руками</span><span class="dot">·</span>
+      <span>Парафинотерапия</span><span class="dot">·</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal-left">
+          <div class="about-image-frame">
+            <div class="about-img-placeholder">
+              <img src="1.png" alt="LUNAE студия" style="width:100%;height:100%;object-fit:cover;" />
+              </div>
+            <div class="about-badge">
+              <span class="badge-num">8</span>
+              <span class="badge-text">лет<br>опыта</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text reveal-right">
+          <span class="section-eyebrow">О студии</span>
+          <h2 class="section-title">Каждый визит —<br><em>ритуал красоты.</em></h2>
+          <p class="body-text">
+            LUNAE — это не просто маникюр. Это пространство, где время замедляется, а каждая деталь продумана до совершенства. Мы работаем только с теми, кто ценит результат — и знает ему цену.
+          </p>
+          <p class="body-text">
+            Наши мастера проходят обучение в лучших школах Европы. Материалы — исключительно от брендов, которым доверяют дома haute couture. Сервис — как в частном клубе.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">3200+</span>
+              <span class="stat-label">клиентов</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">98%</span>
+              <span class="stat-label">возвращаются</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">5★</span>
+              <span class="stat-label">рейтинг</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services section section-dark" id="services">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-eyebrow light">Услуги</span>
+        <h2 class="section-title light">Искусство<br><em>в каждой детали.</em></h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal-up" data-delay="0">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="#C9A96E" stroke-width="1.5"/><path d="M16 28 Q24 18 32 28" stroke="#C9A96E" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="service-title">Классический маникюр</h3>
+          <p class="service-desc">Безупречная форма, идеальная кутикула. Основа, которая никогда не выходит из моды.</p>
+          <span class="service-price">от 2 800 ₽</span>
+        </div>
+        <div class="service-card reveal-up" data-delay="100">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="#C9A96E" stroke-width="1.5"/><rect x="18" y="16" width="12" height="18" rx="6" stroke="#C9A96E" stroke-width="1.5"/></svg>
+          </div>
+          <h3 class="service-title">Гель-лак & Shellac</h3>
+          <p class="service-desc">До трёх недель безупречного покрытия. Цвета от нюд до смелых авторских оттенков.</p>
+          <span class="service-price">от 3 500 ₽</span>
+        </div>
+        <div class="service-card reveal-up" data-delay="200">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="#C9A96E" stroke-width="1.5"/><path d="M20 20 L24 28 L28 20" stroke="#C9A96E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="service-title">Nail Art & Дизайн</h3>
+          <p class="service-desc">От минималистичных линий до сложных арт-объектов. Каждый ноготь — маленькое полотно.</p>
+          <span class="service-price">от 500 ₽/ноготь</span>
+        </div>
+        <div class="service-card reveal-up" data-delay="300">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="#C9A96E" stroke-width="1.5"/><path d="M16 24 Q24 16 32 24 Q24 32 16 24Z" stroke="#C9A96E" stroke-width="1.5"/></svg>
+          </div>
+          <h3 class="service-title">Педикюр</h3>
+          <p class="service-desc">Полноценный уход, который чувствуется каждым шагом. Восстановление и эстетика.</p>
+          <span class="service-price">от 4 200 ₽</span>
+        </div>
+        <div class="service-card reveal-up" data-delay="400">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="#C9A96E" stroke-width="1.5"/><path d="M24 16 L24 32 M18 22 L30 22" stroke="#C9A96E" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="service-title">Укрепление & Наращивание</h3>
+          <p class="service-desc">Армирование, биогель, акрил — решение для тех, кто хочет длину без компромиссов.</p>
+          <span class="service-price">от 4 800 ₽</span>
+        </div>
+        <div class="service-card reveal-up" data-delay="500">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="#C9A96E" stroke-width="1.5"/><path d="M18 24 Q21 20 24 24 Q27 28 30 24" stroke="#C9A96E" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="service-title">Уход за руками</h3>
+          <p class="service-desc">Парафинотерапия, скраб, маска. Кожа рук, которую хочется показывать.</p>
+          <span class="service-price">от 1 800 ₽</span>
+        </div>
+      </div>
+      <div class="services-cta reveal-up">
+        <a href="#contact" class="btn btn-gold">Записаться на услугу</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio section" id="portfolio">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-eyebrow">Работы</span>
+        <h2 class="section-title">Портфолио<br><em>студии.</em></h2>
+      </div>
+    </div>
+    <div class="portfolio-grid">
+      <div class="portfolio-item reveal-up" data-delay="0">
+        <div class="portfolio-inner">
+          <div class="p-placeholder" style="background:none;">
+  <img src="Ногти1.jpg" alt="Nude & Gold" style="width:100%;height:100%;object-fit:cover;" />
+  <div class="p-overlay"><span>Nude & Gold</span></div>
+</div>
+        </div>
+      </div>
+      <div class="portfolio-item reveal-up" data-delay="100">
+        <div class="portfolio-inner">
+          <div class="p-placeholder" style="background:none;">
+  <img src="Ногти2.jpg" alt="French Minimal" style="width:100%;height:100%;object-fit:cover;" />
+  <div class="p-overlay"><span>French Minimal</span></div>
+</div>
+        </div>
+      </div>
+      <div class="portfolio-item reveal-up" data-delay="200">
+        <div class="portfolio-inner">
+          <div class="p-placeholder" style="background:none;">
+  <img src="Ногти3.jpg" alt="Dark Editorial" style="width:100%;height:100%;object-fit:cover;" />
+  <div class="p-overlay"><span>Dark Editorial</span></div>
+</div>
+        </div>
+      </div>
+      <div class="portfolio-item reveal-up" data-delay="100">
+        <div class="portfolio-inner">
+          <div class="p-placeholder" style="background:none;">
+  <img src="Ногти4.jpg" alt="Pearl Texture" style="width:100%;height:100%;object-fit:cover;" />
+  <div class="p-overlay"><span>Pearl Texture</span></div>
+</div>
+        </div>
+      </div>
+      <div class="portfolio-item reveal-up" data-delay="200">
+        <div class="portfolio-inner">
+          <div class="p-placeholder" style="background:none;">
+  <img src="Ногти5.jpg" alt="Velvet Rose" style="width:100%;height:100%;object-fit:cover;" />
+  <div class="p-overlay"><span>Velvet Rose</span></div>
+</div>
+        </div>
+      </div>
+      <div class="portfolio-item reveal-up" data-delay="300">
+        <div class="portfolio-inner">
+          <div class="p-placeholder" style="background:none;">
+  <img src="Ногти6.jpg" alt="Glass Effect" style="width:100%;height:100%;object-fit:cover;" />
+  <div class="p-overlay"><span>Glass Effect</span></div>
+</div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="portfolio-cta reveal-up">
+        <a href="https://instagram.com" target="_blank" class="btn btn-outline-dark">Все работы в Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why section section-cream" id="why">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-eyebrow">Почему LUNAE</span>
+        <h2 class="section-title">Стандарты,<br><em>которые не обсуждают.</em></h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-item reveal-up" data-delay="0">
+          <span class="why-num">01</span>
+          <h3 class="why-title">Материалы haute couture</h3>
+          <p class="why-text">Только бренды, которым доверяют профессионалы высокой моды — CND, OPI Infinite Shine, ORLY, Zoya. Ничего меньше.</p>
+        </div>
+        <div class="why-item reveal-up" data-delay="150">
+          <span class="why-num">02</span>
+          <h3 class="why-title">Стерильность как стандарт</h3>
+          <p class="why-text">Автоклавная стерилизация, одноразовые расходники, медицинская чистота. Ваша безопасность — не пункт в чеклисте.</p>
+        </div>
+        <div class="why-item reveal-up" data-delay="300">
+          <span class="why-num">03</span>
+          <h3 class="why-title">Мастера с историей</h3>
+          <p class="why-text">Каждый специалист — победитель или финалист российских и международных чемпионатов. Обучение в Milbon Academy и школах Парижа.</p>
+        </div>
+        <div class="why-item reveal-up" data-delay="0">
+          <span class="why-num">04</span>
+          <h3 class="why-title">Ваше время уважают</h3>
+          <p class="why-text">Запись минута в минуту. Никаких ожиданий. Студия открыта семь дней в неделю, включая праздники.</p>
+        </div>
+        <div class="why-item reveal-up" data-delay="150">
+          <span class="why-num">05</span>
+          <h3 class="why-title">Персональный подход</h3>
+          <p class="why-text">Карточка клиента, история предпочтений, аллергоанамнез — мы помним всё, чтобы каждый визит был лучше предыдущего.</p>
+        </div>
+        <div class="why-item reveal-up" data-delay="300">
+          <span class="why-num">06</span>
+          <h3 class="why-title">Пространство как сервис</h3>
+          <p class="why-text">Тихая музыка, органический чай, журналы Vogue и Harpers. Место, где хочется остаться чуть дольше.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials section section-dark" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-eyebrow light">Клиенты</span>
+        <h2 class="section-title light">Говорят<br><em>лучше нас.</em></h2>
+      </div>
+      <div class="testimonials-track" id="testimonialsTrack">
+        <div class="testimonial-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-text">"Впервые в жизни чувствую, что маникюр — это не рутина, а настоящий ритуал. Сажусь в кресло и через час выхожу другим человеком. Рук не могу не показывать."</p>
+          <div class="t-author">
+            <div class="t-avatar">АС</div>
+            <div>
+              <span class="t-name">Александра С.</span>
+              <span class="t-meta">Постоянный клиент · 2 года</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-text">"Я перепробовала всё в Москве. LUNAE — это другой уровень. Не только результат — но и атмосфера, забота, детали. Теперь я здесь каждые три недели."</p>
+          <div class="t-author">
+            <div class="t-avatar">МВ</div>
+            <div>
+              <span class="t-name">Мария В.</span>
+              <span class="t-meta">Клиент · 14 месяцев</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-text">"Подарила подруге сертификат на день рождения — она позвонила сразу после визита в слезах от счастья. Теперь ходим вместе. Лучший подарок, который я когда-либо дарила."</p>
+          <div class="t-author">
+            <div class="t-avatar">ЕК</div>
+            <div>
+              <span class="t-name">Екатерина К.</span>
+              <span class="t-meta">Клиент · 8 месяцев</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="t-stars">★★★★★</div>
+          <p class="t-text">"Мой мастер Анна знает мои руки лучше, чем я сама. Ни разу не было ни одного замечания — только восхищение коллег в офисе каждый понедельник."</p>
+          <div class="t-author">
+            <div class="t-avatar">НП</div>
+            <div>
+              <span class="t-name">Наталья П.</span>
+              <span class="t-meta">Постоянный клиент · 3 года</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonials-nav">
+        <button class="t-prev" id="tPrev" aria-label="Назад">←</button>
+        <div class="t-dots" id="tDots"></div>
+        <button class="t-next" id="tNext" aria-label="Вперёд">→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing section" id="pricing">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-eyebrow">Прайс-лист</span>
+        <h2 class="section-title">Прозрачные<br><em>цены.</em></h2>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-col reveal-up" data-delay="0">
+          <h3 class="pricing-cat">Маникюр</h3>
+          <ul class="price-list">
+            <li><span>Классический маникюр</span><span>2 800 ₽</span></li>
+            <li><span>Маникюр + покрытие гель-лак</span><span>3 500 ₽</span></li>
+            <li><span>Shellac / CND</span><span>3 800 ₽</span></li>
+            <li><span>Снятие покрытия</span><span>800 ₽</span></li>
+            <li><span>Французский маникюр</span><span>4 200 ₽</span></li>
+          </ul>
+        </div>
+        <div class="pricing-col reveal-up" data-delay="150">
+          <h3 class="pricing-cat">Педикюр</h3>
+          <ul class="price-list">
+            <li><span>Классический педикюр</span><span>4 200 ₽</span></li>
+            <li><span>Педикюр + покрытие</span><span>5 000 ₽</span></li>
+            <li><span>Аппаратный педикюр</span><span>4 800 ₽</span></li>
+            <li><span>Парафинотерапия ног</span><span>1 200 ₽</span></li>
+          </ul>
+        </div>
+        <div class="pricing-col reveal-up" data-delay="300">
+          <h3 class="pricing-cat">Дизайн & Уход</h3>
+          <ul class="price-list">
+            <li><span>Nail art (1 ноготь)</span><span>от 500 ₽</span></li>
+            <li><span>Полный дизайн</span><span>от 3 500 ₽</span></li>
+            <li><span>Укрепление ногтей</span><span>4 800 ₽</span></li>
+            <li><span>Наращивание (гель)</span><span>6 500 ₽</span></li>
+            <li><span>Уход за руками</span><span>1 800 ₽</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="pricing-note reveal-up">
+        <p>Цены указаны за работу мастера. Стоимость материалов включена. Возможна оплата картой, наличными и переводом.</p>
+        <a href="#contact" class="btn btn-primary">Записаться</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="team section section-cream" id="team">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-eyebrow">Команда</span>
+        <h2 class="section-title">Мастера,<br><em>которым доверяют.</em></h2>
+      </div>
+      <div class="team-grid">
+        <div class="team-card reveal-up" data-delay="0">
+          <div class="team-photo">
+            <div class="team-photo-inner" style="background:none;">
+  <img src="Анна3.jpg" alt="Анна Михайлова" style="width:100%;height:100%;object-fit:cover;" />
+</div>
+          </div>
+          <h3 class="team-name">Анна Михайлова</h3>
+          <span class="team-role">Nail Art Director</span>
+          <p class="team-bio">8 лет опыта. Финалист Nail Olympics 2022. Специализация: авторский дизайн и 3D-арт.</p>
+        </div>
+        <div class="team-card reveal-up" data-delay="150">
+          <div class="team-photo">
+            <div class="team-photo-inner" style="background:none;">
+  <img src="Дарья22.jpg" alt="Дарья" style="width:100%;height:100%;object-fit:cover;" />
+</div>
+          </div>
+          <h3 class="team-name">Дарья Соколова</h3>
+          <span class="team-role">Старший мастер</span>
+          <p class="team-bio">6 лет. Эксперт в классике и французском маникюре. Обучение в школе Москвы и Праги.</p>
+        </div>
+        <div class="team-card reveal-up" data-delay="300">
+          <div class="team-photo">
+            <div class="team-photo-inner" style="background:none;">
+  <img src="Полина1.jpg" alt="Полина" style="width:100%;height:100%;object-fit:cover;" />
+</div>
+          </div>
+          <h3 class="team-name">Полина Верещагина</h3>
+          <span class="team-role">Мастер педикюра</span>
+          <p class="team-bio">5 лет. Медицинское образование. Специализация: аппаратный педикюр и уход за кожей.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner section-dark">
+    <div class="cta-banner-orb"></div>
+    <div class="container">
+      <div class="cta-banner-inner reveal-up">
+        <h2 class="cta-banner-title">Ваши руки<br><em>заслуживают большего.</em></h2>
+        <p class="cta-banner-sub">Первый визит — и вы поймёте разницу.</p>
+        <a href="#contact" class="btn btn-gold-large">Записаться прямо сейчас</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-eyebrow">Контакты</span>
+        <h2 class="section-title">Запишитесь<br><em>на визит.</em></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <div class="contact-item">
+            <span class="contact-label">Адрес</span>
+            <span class="contact-val">Москва, ул. Петровка, 20<br>2-й этаж, студия LUNAE</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Телефон</span>
+            <a href="tel:+74951234567" class="contact-val contact-link">+7 (495) 123-45-67</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Instagram</span>
+            <a href="https://instagram.com" target="_blank" class="contact-val contact-link">@lunae.nails</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Режим работы</span>
+            <span class="contact-val">Ежедневно: 10:00 — 21:00</span>
+          </div>
+          <div class="map-placeholder reveal-up">
+            <div class="map-inner">
+              <svg viewBox="0 0 400 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="220" fill="#F0EDE8"/>
+                <line x1="0" y1="80" x2="400" y2="80" stroke="#D5CFC7" stroke-width="1"/>
+                <line x1="0" y1="140" x2="400" y2="140" stroke="#D5CFC7" stroke-width="1"/>
+                <line x1="100" y1="0" x2="100" y2="220" stroke="#D5CFC7" stroke-width="1"/>
+                <line x1="200" y1="0" x2="200" y2="220" stroke="#D5CFC7" stroke-width="1"/>
+                <line x1="300" y1="0" x2="300" y2="220" stroke="#D5CFC7" stroke-width="1"/>
+                <circle cx="200" cy="110" r="12" fill="#C9A96E"/>
+                <circle cx="200" cy="110" r="5" fill="white"/>
+                <circle cx="200" cy="110" r="25" fill="#C9A96E" opacity="0.15"/>
+              </svg>
+              <span class="map-label">ул. Петровка, 20 · Москва</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form reveal-right">
+          <form class="booking-form" id="bookingForm" novalidate>
+            <h3 class="form-title">Онлайн-запись</h3>
+            <div class="form-group">
+              <label for="fname">Ваше имя</label>
+              <input type="text" id="fname" name="name" placeholder="Анна" autocomplete="given-name" />
+            </div>
+            <div class="form-group">
+              <label for="fphone">Телефон</label>
+              <input type="tel" id="fphone" name="phone" placeholder="+7 (___) ___-__-__" autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="fservice">Услуга</label>
+              <select id="fservice" name="service">
+                <option value="">Выберите услугу</option>
+                <option>Классический маникюр</option>
+                <option>Маникюр + гель-лак</option>
+                <option>Педикюр</option>
+                <option>Nail Art / Дизайн</option>
+                <option>Укрепление / Наращивание</option>
+                <option>Уход за руками</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="fdate">Желаемая дата</label>
+              <input type="date" id="fdate" name="date" />
+            </div>
+            <div class="form-group">
+              <label for="fcomment">Комментарий</label>
+              <textarea id="fcomment" name="comment" rows="3" placeholder="Пожелания, вопросы..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Отправить заявку</button>
+            <p class="form-note">Свяжемся в течение 30 минут для подтверждения</p>
+          </form>
+          <div class="form-success" id="formSuccess">
+            <div class="success-icon">✓</div>
+            <h3>Заявка принята</h3>
+            <p>Мы свяжемся с вами в течение 30 минут.<br>До встречи в LUNAE.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="footer-logo">LUNAE</span>
+          <p class="footer-tagline">Студия маникюра. Москва.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#about">О студии</a>
+          <a href="#services">Услуги</a>
+          <a href="#portfolio">Работы</a>
+          <a href="#pricing">Цены</a>
+          <a href="#contact">Запись</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://instagram.com" target="_blank" class="social-link">Instagram</a>
+          <a href="https://t.me" target="_blank" class="social-link">Telegram</a>
+          <a href="https://wa.me" target="_blank" class="social-link">WhatsApp</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 LUNAE. Все права защищены.</span>
+        <span>Москва, ул. Петровка, 20</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- STICKY CTA -->
+  <a href="#contact" class="sticky-cta" id="stickyCta">Записаться</a>
+
+  <script src="Dam.js"></script>
+</body>
+</html>
